@@ -2,4 +2,6 @@
 
 var H1Elemento = document.getElementById("titulo-1")
 
-H1Elemento.addEventListener(alert("ksajdk"))
+H1Elemento.addEventListener("click", function(){
+    alert("alerta")
+})
