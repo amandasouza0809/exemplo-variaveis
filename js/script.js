@@ -7,5 +7,9 @@ h1Elemento = addEventListener("click", function(){
 })
 
 var nome = "Pedro"
-let nome = "Pedro"
-const nome = "Pedro"
+
+if (nome != ""){
+    var nome = "Emanuelle"
+}
+
+console.log(nome)
