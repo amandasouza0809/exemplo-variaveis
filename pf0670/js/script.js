@@ -3,4 +3,8 @@
 var h1Elemento = document.getElementById("title-1")
 
 //adding a listener event
-h1Elemento.addEventListener()
+h1Elemento.addEventListener("click", function(){
+
+    alert("alert")
+
+})
