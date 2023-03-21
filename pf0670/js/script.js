@@ -8,3 +8,15 @@ h1Elemento.addEventListener("click", function(){
     alert("alert")
 
 })
+
+
+// declaration of variables w/ LET, VAR and CONST
+
+var nome  = "Cova"
+
+if(nome != "") {
+    var nome = "Emanuelle"
+}
+
+//printing the variable value
+console.log(nome)
