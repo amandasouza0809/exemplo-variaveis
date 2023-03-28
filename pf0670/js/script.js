@@ -7,8 +7,10 @@ var h1Elemento = document.getElementById("titulo-1")
 h1Elemento.addEventListener("click",function(){
 
     alert("Agora sou autonômo!")
+    h1Elemento.innerHTML="NOVO TÍTULO";
+    h1Elemento.style.backgroundColor= "red"
 
-})
+}) 
 
 //Declaração de variáveis com LET e VAR e CONST
 
@@ -17,7 +19,7 @@ h1Elemento.addEventListener("click",function(){
 var nome = "Pedro"
 
 if(nome != ""){
-    let nome = "Emanuelle"
+    var nome = "Emanuelle"
 }
 
 //Imprimindo o valor da variável
