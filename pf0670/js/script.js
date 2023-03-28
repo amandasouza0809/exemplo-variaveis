@@ -8,7 +8,7 @@ h1Elemento.addEventListener("click",function(){
 
     alert("Agora sou autonômo!")
     h1Elemento.innerHTML= "NOVO TÍTULO";
-    h1Elemento.style.backgroundColor= "#ff0000"
+    h1Elemento.style.backgroundColor = "#ff0000"
 
 }) 
 
@@ -27,3 +27,20 @@ if(nome != ""){
 
 //Imprimindo o valor da variável
 console.log(nome)
+
+let nome = null
+console.log (nome)
+
+if (nome!="" && nome != undefined){
+    console.log("A variavel está preenchida!")
+}else if (nome = null)
+    console.log ("A variavel é null")
+else {
+    console.log ("A variavel está preenchida")
+}
+
+let num1 = 10;
+let num2 = 5;
+
+let resultado = 10%5 ? "PAR" : "IMPAR"
+console.log("o numero é " + resultado)
